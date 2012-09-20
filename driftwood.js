@@ -125,7 +125,7 @@ var Driftwood = new function() {
           var method = level.toLowerCase();
 
           // If our console has native log methods, call those
-          if(console[method] !== "undefined") {
+          if(typeof console[method] !== "undefined") {
             console[method].call( string );
           }
           else {
