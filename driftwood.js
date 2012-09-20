@@ -139,7 +139,7 @@ var Driftwood = new function() {
       },
 
       debug: function(message) {
-        this.debug(message, "DEBUG");
+        this.log(message, "DEBUG");
       },
 
       info: function(message) {
